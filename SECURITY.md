@@ -19,3 +19,7 @@ pandas includes the ability to output a DataFrame to various formats, including 
 ## eval / query
 
 pandas includes some methods to evaluate expressions in the context of a DataFrame using various engines (numexpr, Python eval). pandas doesn't provide any security on top of those libraries, and so likely won't consider reports involving eval or query on untrusted input a security vulnerability.
+
+## Input injection
+
+pandas includes several methods for reading or writing data to formats that are susceptible to some kind of injection (e.g. `read_sql` or `to_excel`). The libraries pandas uses on the backend typically have options for escaping or sanitizing parameters, which can be used on user input. pandas itself doesn't offer any security guarantees around escaping or sanitizing user input.
