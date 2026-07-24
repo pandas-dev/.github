@@ -1,5 +1,4 @@
 # Contributor Code of Conduct
-
 As contributors and maintainers of this project, and in the interest of
 fostering an open and welcoming community, we pledge to respect all people who
 contribute through reporting issues, posting feature requests, updating
@@ -20,6 +19,9 @@ Examples of unacceptable behavior by participants include:
   addresses, without explicit permission
 * Other unethical or unprofessional conduct
 
+Furthermore, we encourage inclusive behavior - for example,
+please don't say “hey guys!” but “hey everyone!”.
+
 Project maintainers have the right and responsibility to remove, edit, or
 reject comments, commits, code, wiki edits, issues, and other contributions
 that are not aligned to this Code of Conduct, or to ban temporarily or
@@ -37,15 +39,10 @@ when an individual is representing the project or its community.
 A working group of community members is committed to promptly addressing any
 reported issues. The working group is made up of pandas contributors and users.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the working group by e-mail (pandas-coc@googlegroups.com).
+reported by contacting the working group by e-mail (coc@pandas.pydata.org).
 Messages sent to this e-mail address will not be publicly visible but only to
-the working group members. The working group currently includes
-
-- Safia Abdalla
-- Tom Augspurger
-- Joris Van den Bossche
-- Camille Scott
-- Nathaniel Smith
+the working group members. The current working group composition can be found
+at the [pandas team page](https://pandas.pydata.org/about/team.html#workgroups).
 
 All complaints will be reviewed and investigated and will result in a response
 that is deemed necessary and appropriate to the circumstances. Maintainers are
